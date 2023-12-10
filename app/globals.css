@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nbtn {
+    @apply text-black text-xl m-2;
+  }
+
+  .btn {
+    @apply bg-blue-accent hover:bg-blue-accent-hover rounded text-center;
+  }
+}
